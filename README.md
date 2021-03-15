@@ -1,2 +1,3 @@
-# typechain
- Typescript by making a Blockchain with it
+# Typechain
+
+Typescript by making a Blockchain with it

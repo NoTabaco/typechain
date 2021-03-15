@@ -3,6 +3,16 @@
   "version": "1.0.0",
   "description": "Typescript by making a Blockchain with it",
   "main": "index.js",
+  "repository": "https://github.com/NoTabaco/typechain",
   "author": "NoTabaco",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^4.2.3"
+  },
+  "scripts": {
+    "start": "tsc-watch --onSuccess \" node dist/index.js\" "
+  },
+  "devDependencies": {
+    "tsc-watch": "^4.2.9"
+  }
 }
